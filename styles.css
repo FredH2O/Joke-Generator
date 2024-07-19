@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 .container {
@@ -75,4 +76,9 @@ button:active {
 
 button:focus {
   outline: none;
+}
+
+footer {
+  color: #605e5e;
+  margin-top: 15px;
 }

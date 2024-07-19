@@ -63,15 +63,8 @@ button {
 }
 
 button:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   transition: 1s ease;
-  box-shadow: 2px 3px 0px rgb(37, 33, 33);
-}
-
-button:active {
-  transform: translateY(5px);
-  transition: 0.1s ease;
-  box-shadow: 0px 0px 0px;
 }
 
 button:focus {
